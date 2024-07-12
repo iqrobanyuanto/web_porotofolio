@@ -16,6 +16,7 @@ export default function Page() {
       <Box
         sx={{
           display: "flex",
+          flexWrap: 'wrap',
           justifyContent: 'center',
           gap: 10,
         }}

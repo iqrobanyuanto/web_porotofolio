@@ -38,5 +38,41 @@
             "https://tinyurl.com/industrialAppDesign",
             "https://github.com/iqrobanyuanto/Intern_Backend"
         ]
+    },
+    {
+        "title": "Industrial App",
+        "description": "Industrial App is a Web-based application for warehouse goods management",
+        "positions": [
+            "Backend Developer",
+            "System Designer"
+        ],
+        "frameworks": [
+            "Gin"
+        ],
+        "languages": [
+            "Golang"
+        ],
+        "evidences": [
+            "https://tinyurl.com/industrialAppDesign",
+            "https://github.com/iqrobanyuanto/Intern_Backend"
+        ]
+    },
+    {
+        "title": "Industrial App",
+        "description": "Industrial App is a Web-based application for warehouse goods management",
+        "positions": [
+            "Backend Developer",
+            "System Designer"
+        ],
+        "frameworks": [
+            "Gin"
+        ],
+        "languages": [
+            "Golang"
+        ],
+        "evidences": [
+            "https://tinyurl.com/industrialAppDesign",
+            "https://github.com/iqrobanyuanto/Intern_Backend"
+        ]
     }
 ]
