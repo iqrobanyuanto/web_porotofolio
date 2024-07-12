@@ -1,0 +1,42 @@
+[
+    {
+        "title": "OKTM Service Web",
+        "description": "OKTM (Online Kartu Tanda Mahasiswa) Service Web is a Web-based application for managing and supporting student ID creation and maintenance services.",
+        "position": [
+            "Fullstack Developer", 
+            "UI Designer",
+            "System Designer"
+        ],
+        "framework": [
+            "Laravel", 
+            "Bootstrap"
+        ],
+        "language": [
+            "PHP",
+            "CSS",
+            "Javascript"
+        ],
+        "evidence": [
+            "https://bit.ly/OKTM-UI-Prototype",
+            "https://github.com/aliftf/OKTM-service-web"
+        ]
+    },
+    {
+        "title": "Industrial App",
+        "description": "Industrial App is a Web-based application for warehouse goods management",
+        "position": [
+            "Backend Developer",
+            "System Designer"
+        ],
+        "framework": [
+            "Gin"
+        ],
+        "language": [
+            "Golang"
+        ],
+        "evidence": [
+            "https://tinyurl.com/industrialAppDesign",
+            "https://github.com/iqrobanyuanto/Intern_Backend"
+        ]
+    }
+]
