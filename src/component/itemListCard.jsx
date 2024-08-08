@@ -1,5 +1,6 @@
 import { Card, CardContent, Divider, Typography, List, ListItem, Link} from "@mui/joy";
 
+
 export default function Page({header, data, type}) {
     return (
       <Card sx={{

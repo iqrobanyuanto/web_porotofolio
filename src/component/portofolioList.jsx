@@ -12,7 +12,6 @@ export default function Page() {
       gap: 10,
       padding: 5
     }}>
-      <Typography level='h1'sx={{textTransform: 'capitalize'}}>my portofolio</Typography>
       <Box
         sx={{
           display: "flex",

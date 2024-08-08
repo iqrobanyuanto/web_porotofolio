@@ -1,13 +1,22 @@
 'use client'
+import { Box,Typography } from "@mui/joy";
+import { blueGrey, grey } from "@mui/material/colors";
 
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <body>
-        <main>
-          {children}
-        </main>
-      </body>
+      <Box component= "body" sx={{
+        backgroundColor: blueGrey[900],
+      }}>
+        <Box sx={{
+          display: "flex",
+          justifyContent: "center",
+          padding: 5
+        }}>
+          <Typography level='h1' textColor={grey[50]}>My Portofolio</Typography>
+        </Box>
+        <main>{children}</main>
+      </Box>
     </html>
   );
 }
