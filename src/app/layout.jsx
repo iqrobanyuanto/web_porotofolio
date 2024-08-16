@@ -13,7 +13,7 @@ export default function RootLayout({children}) {
           justifyContent: "center",
           padding: 5
         }}>
-          <Typography level='h1' textColor={grey[50]} sx={{fontSize: 57}}>My Portofolio</Typography>
+          <Typography level='h1' textColor={grey[50]} sx={{fontSize: 57}}>My Portfolio</Typography>
         </Box>
         <main>{children}</main>
       </Box>
