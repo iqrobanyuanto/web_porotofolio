@@ -11,7 +11,7 @@ export default function Page({header, data}) {
           <Divider />
           <List marker="disc">
             {data.map((item, index) => (
-              <ListItem>
+              <ListItem key={index}>
                 <Typography key={index} level="body-lg">
                   {item}
                 </Typography>
