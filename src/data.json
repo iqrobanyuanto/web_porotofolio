@@ -2,41 +2,89 @@
     {
         "title": "OKTM Service Web",
         "description": "OKTM (Online Kartu Tanda Mahasiswa) Service Web is a Web-based application for managing and supporting student ID creation and maintenance services.",
-        "position": [
-            "Fullstack Developer", 
+        "positions": [
+            "Fullstack Developer",
             "UI Designer",
-            "System Designer"
+            "UML Specialist"
         ],
-        "framework": [
+        "frameworks": [
             "Laravel", 
             "Bootstrap"
         ],
-        "language": [
+        "languages": [
             "PHP",
             "CSS",
             "Javascript"
         ],
-        "evidence": [
+        "evidences": [
             "https://bit.ly/OKTM-UI-Prototype",
             "https://github.com/aliftf/OKTM-service-web"
+        ],
+        "evidences_context": [
+            "UI Prototype",
+            "Repository"
+        ]
+        
+    },
+    {
+        "title": "OKTM Service Mobile",
+        "description": "OKTM (Online Kartu Tanda Mahasiswa) Service Mobile is a Mobile-based application for managing and supporting student ID creation and maintenance services",
+        "positions": [
+            "Fullstack Developer"
+        ],
+        "frameworks": [
+            "Flutter"
+        ],
+        "languages": [
+            "Dart"
+        ],
+        "evidences": [
+            "https://github.com/aliftf/oktm_service_mobile"
+        ],
+        "evidences_context": [
+            "Repository"
         ]
     },
     {
         "title": "Industrial App",
         "description": "Industrial App is a Web-based application for warehouse goods management",
-        "position": [
+        "positions": [
             "Backend Developer",
-            "System Designer"
+            "UML Specialist"
         ],
-        "framework": [
+        "frameworks": [
             "Gin"
         ],
-        "language": [
+        "languages": [
             "Golang"
         ],
-        "evidence": [
+        "evidences": [
             "https://tinyurl.com/industrialAppDesign",
             "https://github.com/iqrobanyuanto/Intern_Backend"
+        ],
+        "evidences_context": [
+            "Software Model",
+            "Repository"
+        ]
+    },
+    {
+        "title": "Web Portfolio",
+        "description": "Web Portfolio is a Web-based application for showcasing personal projects",
+        "positions": [
+            "Frontend Engineer"
+        ],
+        "frameworks": [
+            "React.js",
+            "MUI"
+        ],
+        "languages": [
+            "Javascript"
+        ],
+        "evidences": [
+            "https://github.com/iqrobanyuanto/web_porotofolio"
+        ],
+        "evidences_context": [
+            "Repository"
         ]
     }
 ]
