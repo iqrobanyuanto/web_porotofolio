@@ -3,9 +3,9 @@
         "title": "OKTM Service Web",
         "description": "OKTM (Online Kartu Tanda Mahasiswa) Service Web is a Web-based application for managing and supporting student ID creation and maintenance services.",
         "positions": [
-            "Fullstack Developer", 
+            "Fullstack Developer",
             "UI Designer",
-            "System Designer"
+            "UML Specialist"
         ],
         "frameworks": [
             "Laravel", 
@@ -19,6 +19,30 @@
         "evidences": [
             "https://bit.ly/OKTM-UI-Prototype",
             "https://github.com/aliftf/OKTM-service-web"
+        ],
+        "evidences_context": [
+            "UI Prototype",
+            "Repository"
+        ]
+        
+    },
+    {
+        "title": "OKTM Service Mobile",
+        "description": "OKTM (Online Kartu Tanda Mahasiswa) Service Mobile is a Mobile-based application for managing and supporting student ID creation and maintenance services",
+        "positions": [
+            "Fullstack Developer"
+        ],
+        "frameworks": [
+            "Flutter"
+        ],
+        "languages": [
+            "Dart"
+        ],
+        "evidences": [
+            "https://github.com/aliftf/oktm_service_mobile"
+        ],
+        "evidences_context": [
+            "Repository"
         ]
     },
     {
@@ -26,7 +50,7 @@
         "description": "Industrial App is a Web-based application for warehouse goods management",
         "positions": [
             "Backend Developer",
-            "System Designer"
+            "UML Specialist"
         ],
         "frameworks": [
             "Gin"
@@ -37,42 +61,30 @@
         "evidences": [
             "https://tinyurl.com/industrialAppDesign",
             "https://github.com/iqrobanyuanto/Intern_Backend"
+        ],
+        "evidences_context": [
+            "Software Model",
+            "Repository"
         ]
     },
     {
-        "title": "Industrial App",
-        "description": "Industrial App is a Web-based application for warehouse goods management",
+        "title": "Web Portfolio",
+        "description": "Web Portfolio is a Web-based application for showcasing personal projects",
         "positions": [
-            "Backend Developer",
-            "System Designer"
+            "Frontend Engineer"
         ],
         "frameworks": [
-            "Gin"
+            "React.js",
+            "MUI"
         ],
         "languages": [
-            "Golang"
+            "Javascript"
         ],
         "evidences": [
-            "https://tinyurl.com/industrialAppDesign",
-            "https://github.com/iqrobanyuanto/Intern_Backend"
-        ]
-    },
-    {
-        "title": "Industrial App",
-        "description": "Industrial App is a Web-based application for warehouse goods management",
-        "positions": [
-            "Backend Developer",
-            "System Designer"
+            "https://github.com/iqrobanyuanto/web_porotofolio"
         ],
-        "frameworks": [
-            "Gin"
-        ],
-        "languages": [
-            "Golang"
-        ],
-        "evidences": [
-            "https://tinyurl.com/industrialAppDesign",
-            "https://github.com/iqrobanyuanto/Intern_Backend"
+        "evidences_context": [
+            "Repository"
         ]
     }
 ]

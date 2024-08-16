@@ -1,7 +1,7 @@
-import { Card, CardContent, Divider, Typography, List, ListItem, Link} from "@mui/joy";
+import { Card, CardContent, Divider, Typography, List, ListItem, Link, Box} from "@mui/joy";
 
 
-export default function Page({header, data, type}) {
+export default function Page({header, data}) {
     return (
       <Card sx={{
         width: "23vw",
@@ -12,15 +12,9 @@ export default function Page({header, data, type}) {
           <List marker="disc">
             {data.map((item, index) => (
               <ListItem>
-                {type == 'link'? 
-                <Link key={index} href={item}>
-                    <Typography key={index} level="body-lg">
-                        {item}
-                    </Typography>
-                </Link> : 
                 <Typography key={index} level="body-lg">
                   {item}
-                </Typography>}
+                </Typography>
               </ListItem>
             ))}
           </List>

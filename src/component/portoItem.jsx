@@ -1,5 +1,6 @@
 import { Box, Card, CardContent, Typography} from "@mui/joy";
 import ItemList from './itemListCard';
+import EvidenceList from './evidenceListCard';
 
 export default function Page({porto}) {
     return (
@@ -20,7 +21,7 @@ export default function Page({porto}) {
           <ItemList header="Position" data={porto.positions} />
           <ItemList header="Framework" data={porto.frameworks} />
           <ItemList header="Language" data={porto.languages} />
-          <ItemList header="Evidence" data={porto.evidences} type="link" />
+          <EvidenceList header="Evidence" data={porto.evidences} type="link" data_head={porto.evidences_context}/>
         </CardContent>
       </Card>
     );
