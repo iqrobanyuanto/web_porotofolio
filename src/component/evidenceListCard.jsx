@@ -8,8 +8,8 @@ export default function Page({data_head, data}) {
         <Divider />
         <List>
           {data.map((item, index) => (
-            <ListItem>
-              <Box sx={{mb:2}}>
+            <ListItem key={index}>
+              <Box sx={{mb:2}} key={index}>
                 <Typography key={index} level="body-lg">
                   {data_head[index]}
                 </Typography>
